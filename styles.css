@@ -1,0 +1,116 @@
+* {
+  margin: 5px;
+  padding: 0px;
+}
+
+body {
+ background-color: #dff6ff; 
+}
+
+/* Header Styling */
+h1 {
+  color: #96c8ef;
+  font-family: 'Norican', cursive;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: #467082;
+  font-family: 'Norican', cursive;
+  margin: 10px;
+  display: flex;
+}
+
+h3 {
+  color:#467082;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+  
+.body h3 {
+  font-family: 'Crimson Text', serif;
+  color: #467082;
+  margin: 5px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: left;
+}
+
+/* Image Styling */
+img{
+  padding:10px;
+  border-radius: 30px;
+}
+
+.nav-bar ul{
+  background-color: #96c8ef;
+  border-radius: 5px;
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+}
+/* Link Styling */
+.nav-bar a{
+  font-family: 'Crimson Text', serif;
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+a:link {
+  color:#467082;
+}
+
+a:visited {
+  color:#467082;
+}
+
+a:hover {
+  color: #19282f;
+}
+
+/* Paragraph Styling */
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #19282f;
+}
+
+/* Activity Box Styling */
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.Preview {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.crop {
+  overflow: scroll;
+  height: 175px;
+}
+
+.crop2 {
+  overflow: scroll;
+  height: 250px;
+}
